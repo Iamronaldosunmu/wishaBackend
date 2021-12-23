@@ -16,14 +16,6 @@ router.get('/', async (req, res) => {
     res.send(listOfEmails);
 });
 
-//Request to get a particular email by it's id
-// router.get('/:id', async (req, res) => {
-//     const id = req.params.id;
-//     const email = await Email.find({_id: id});
-//     if (!email) return res.status(404).send("There is no email with that id in our DB with that id")
-//     res.status(200).send(email);
-// });
-
 //Create an email that will be stored in the DB
 router.post('/', async (req, res) => {
     const {error} = Joi.validate(req.body, schema);
