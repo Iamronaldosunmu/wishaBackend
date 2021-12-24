@@ -14,7 +14,7 @@ require('./startup/routes')(app);
 require('./startup/db')();
 require('./startup/prod')(app);
 
-const port = config.get('port') || 3000;
+const port = process.env.PORT || config.get('port');
 
 
 
