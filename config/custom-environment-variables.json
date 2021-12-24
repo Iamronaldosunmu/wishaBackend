@@ -1,4 +1,4 @@
 {
     "port" : "app_port", 
-    "db" : "wisha_databse"
+    "db" : "wisha_database"
 }
