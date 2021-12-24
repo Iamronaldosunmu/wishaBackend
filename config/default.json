@@ -1,3 +1,5 @@
 {
-    "name": "WishaBackend"
+    "name": "WishaBackend", 
+    "db": "mongodb://localhost/Wisha", 
+    "port": 4000
 }

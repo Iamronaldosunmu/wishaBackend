@@ -1,3 +1,4 @@
 {
-    "port" : "app_port"
+    "port" : "app_port", 
+    "db" : "wisha_databse"
 }
